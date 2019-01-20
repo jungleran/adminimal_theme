@@ -1,7 +1,7 @@
 <?php
 /**
 * @file
-* This file adds a warning message if the theme is beeing used disabled.
+* This file adds a warning message if the theme is being used disabled.
 */
 
 // Define the base site url.
