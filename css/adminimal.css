@@ -817,6 +817,10 @@ input[type=radio]:disabled:hover {
   background-color: #f6f6f6;
 }
 
+.adminimal .field-multiple-table .form-item {
+  margin: 0.75em 0;
+}
+
 .node-preview-container .form-type-select {
   float: right;
 }
