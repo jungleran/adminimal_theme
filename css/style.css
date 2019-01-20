@@ -23,9 +23,6 @@ body.adminimal-theme *::-moz-focus-inner {
 }
 
 body.adminimal-theme * {
-  -moz-box-sizing: inherit;
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
