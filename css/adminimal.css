@@ -47,10 +47,6 @@ body.adminimal {
   padding: 1rem 0 0;
 }
 
-.adminimal.toolbar-tray-open.toolbar-fixed.toolbar-horizontal {
-  padding-top: 4rem !important;
-}
-
 .adminimal thead th {
   border: none;
   color: #909090;
