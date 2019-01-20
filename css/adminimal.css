@@ -201,8 +201,16 @@ body.adminimal {
   box-shadow: none;
 }
 
-.adminimal .button {
+.adminimal .button:not(.media-library-item__remove) {
   background-image: none;
+}
+
+.adminimal .button:not(.media-library-item__remove):hover,
+.adminimal .button:not(.media-library-item__remove):focus {
+  background-image: none;
+}
+
+.adminimal .button {
   background-color: #f9f9f9;
   border-radius: 0;
   text-shadow: none;
@@ -213,7 +221,6 @@ body.adminimal {
 .adminimal .button:focus {
   background-color: #FFFFFF;
   border-color: #008ee6;
-  background-image: none;
 }
 
 .adminimal .button-action:before {
@@ -830,4 +837,8 @@ input[type=radio]:disabled:hover {
 .content-header .page-title .field--name-title {
   display: block;
   margin-top: 1.2rem;
+}
+
+.adminimal .media-library-item__remove.button {
+  border-radius: 20px;
 }
