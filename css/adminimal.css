@@ -803,3 +803,16 @@ body.adminimal {
 .adminimal .views-ui-dialog .views-override {
   background-color: #f6f6f6;
 }
+
+.node-preview-container .form-type-select {
+  float: right;
+}
+
+.node-preview-container label {
+  color: #fff;
+}
+
+.content-header .page-title .field--name-title {
+  display: block;
+  margin-top: 1.2rem;
+}
