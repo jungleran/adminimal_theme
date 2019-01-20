@@ -1777,6 +1777,7 @@ body.adminimal-theme .token-tree th {
   background: white;
   padding: 0;
   margin: 0;
+  width: auto;
 }
 
 .ui-widget table thead th {
