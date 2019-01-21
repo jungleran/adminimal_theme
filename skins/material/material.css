@@ -277,6 +277,10 @@ body.adminimal-skin-material .text-format-wrapper fieldset.filter-wrapper {
   border-radius: 0;
 }
 
+body.adminimal-skin-material .vertical-tabs-panes fieldset {
+  padding-top: 42px;
+}
+
 body.adminimal-skin-material .vertical-tabs-panes fieldset.vertical-tabs-pane {
   box-shadow: none;
 }
