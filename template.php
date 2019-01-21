@@ -185,6 +185,15 @@ function adminimal_preprocess_html(&$vars) {
   else {
     $vars['classes_array'][] = 'no-sidebars';
   }
+
+  // Display warning message on certain pages if theme is disabled.
+  if (in_array('page-admin-appearance', $vars['classes_array']) || in_array('page-admin-modules', $vars['classes_array']) || in_array('page-admin-reports-status', $vars['classes_array'])) {
+    $active_themes = list_themes();
+    if ($active_themes['adminimal']->status == 0) {
+      global $base_url;
+      drupal_set_message(t('Adminimal Theme must be enabled to work properly. Please enable it from the <a href="@link">Appearance page</a>.', array('@link' => $base_url . '/admin/appearance')), 'warning');
+    }
+  }
 }
 
 /**
