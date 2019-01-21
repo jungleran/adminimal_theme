@@ -29,6 +29,12 @@ body.adminimal-theme * {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body.adminimal-theme .panel-panel {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   color: #000;
   background: #fff;
