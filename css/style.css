@@ -22,6 +22,8 @@ body.adminimal-theme *::-moz-focus-inner {
   border: 0;
 }
 
+* {-webkit-overflow-scrolling: touch;}
+
 body.adminimal-theme * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1780,7 +1782,8 @@ body.adminimal-theme .token-tree th {
   width: auto;
 }
 
-.ui-widget table thead th {
+.ui-widget table thead th,
+.mac .ui-widget table thead th {
   background: #555;
   color: white;
 }
