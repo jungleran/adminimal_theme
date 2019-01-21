@@ -160,6 +160,12 @@ body.adminimal-menu #admin-menu .dropdown li.admin-menu-action.admin-menu-accoun
   background: #1B2327 !important;
 }
 
+body.adminimal-skin-material ul li a {
+  -webkit-user-select: all;  /* Chrome 49+ */
+  -moz-user-select: all;     /* Firefox 43+ */
+  -ms-user-select: all;      /* No support yet */
+}
+
 body.adminimal-skin-material ul.primary li.active a,
 body.adminimal-skin-material ul.primary li.active a.active,
 body.adminimal-skin-material ul.primary li.active a:active,
