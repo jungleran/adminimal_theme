@@ -614,6 +614,10 @@ input[type=radio].error:focus:checked {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.form-item input[type='checkbox'].error {
+  border-color: #B5B5B5;
+}
+
 input[type=checkbox]#edit-delete:checked,
 input[type=checkbox]#edit-delete:disabled:checked {
   background: #D01616;
