@@ -1,25 +1,5 @@
 /* Adminimal Theme overrides file. All selectors must start with ".adminimal" */
 
-/* Import the Open Sans webfont from Google CDN */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/uYKcPVoh6c5R0NpdEY5A-Q.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
-}
-
 /*html {
   zoom: 1.1;
 }*/
@@ -28,10 +8,6 @@
 /*.adminimal .ckeditor-toolbar-configuration.js-form-wrapper.form-wrapper {
   zoom: 0.9;
 }*/
-
-body.adminimal {
-  font: normal 81.3%/1.538em "Open Sans", sans-serif;
-}
 
 .adminimal .page-title,
 .adminimal .heading-a {
@@ -422,10 +398,6 @@ body.adminimal {
 
 .adminimal .link.tabledrag-toggle-weight {
   margin-bottom: 0.3em;
-}
-
-.adminimal .toolbar {
-  font-family: "Open Sans";
 }
 
 .adminimal.toolbar-fixed.toolbar-vertical {
