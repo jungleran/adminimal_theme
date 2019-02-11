@@ -826,6 +826,15 @@ input[type=radio]:disabled:hover {
   background-color: #f6f6f6;
 }
 
+#block-adminimal-theme-content ul.admin-list .description {
+  margin-bottom: 10px;
+}
+
+#block-adminimal-theme-content ul.admin-list .description a {
+  background: none;
+  padding: 0px;
+}
+
 .adminimal .field-multiple-table .form-item {
   margin: 0.75em 0;
 }
