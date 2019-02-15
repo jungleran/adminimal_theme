@@ -19,8 +19,8 @@
 }
 
 .adminimal .content-header {
-  background-color: #333;
-  padding: 1rem 0 0;
+  background-color: #434343;
+  padding: 2rem 0 0;
 }
 
 .adminimal thead th {
@@ -160,21 +160,6 @@
 .adminimal .vertical-tabs__menu-item a {
   border: none;
   transition: all, 0.2s;
-}
-
-.adminimal .vertical-tabs__menu-item a:hover,
-.adminimal .vertical-tabs__menu-item a:focus {
-  background: #d2e7f4;
-}
-
-.adminimal .vertical-tabs__menu-item.is-selected a:hover,
-.adminimal .vertical-tabs__menu-item.is-selected a:focus {
-  background: #fcfcfa;
-}
-
-.adminimal .vertical-tabs__menu-item.is-selected {
-  border: none;
-  box-shadow: none;
 }
 
 .adminimal .button:not(.media-library-item__remove) {
@@ -404,7 +389,9 @@
   padding-top: 32px !important;
 }
 
-.adminimal .toolbar a {
+.adminimal .toolbar .toolbar-tray-vertical a,
+.adminimal .toolbar .toolbar-tray-horizontal .menu-item,
+.menu-item a {
   transition: all, 0.2s;
 }
 
@@ -415,6 +402,18 @@
 
 .adminimal .toolbar .toolbar-menu {
   background: #333;
+}
+
+.adminimal .toolbar .toolbar-tray-vertical .level-2 {
+  background: rgba(255,255,255,0.03);
+}
+
+.adminimal .toolbar .toolbar-tray-vertical .level-3 {
+  background: rgba(255,255,255,0.05);
+}
+
+.adminimal .toolbar .toolbar-tray-vertical .level-4 {
+  background: rgba(255,255,255,0.07);
 }
 
 .adminimal .toolbar .toolbar-tray-vertical {
@@ -448,9 +447,9 @@
   text-decoration: none;
 }
 
-.adminimal .toolbar .toolbar-tray-horizontal .menu-item + .menu-item,
-[dir="rtl"] .adminimal .toolbar .toolbar-tray-horizontal .menu-item + .menu-item,
-.adminimal .toolbar .toolbar-tray-horizontal .menu-item:last-child {
+.adminimal.toolbar-horizontal .toolbar-tray .menu-item + .menu-item,
+[dir="rtl"] .adminimal.toolbar-horizontal .toolbar-tray .menu-item + .menu-item,
+.adminimal.toolbar-horizontal .toolbar-tray .menu-item:last-child {
   border-left: none; /* LTR */
   border-right: none;
 }
@@ -462,7 +461,23 @@
   text-decoration: none;
 }
 
-.adminimal .toolbar .toolbar-tray-vertical .menu-item + .menu-item {
+.adminimal .toolbar .toolbar-tray-horizontal ul li.menu-item {
+  border: none;
+}
+
+.adminimal .toolbar .toolbar-tray-horizontal ul li.menu-item a:hover {
+  text-decoration: none;
+}
+
+.adminimal .toolbar .toolbar-tray-horizontal ul li.menu-item a.is-active:hover {
+  text-decoration: underline;
+}
+
+.adminimal .toolbar-tray-horizontal .menu-item--expanded {
+  background: #333;
+}
+
+.adminimal .toolbar .menu-item + .menu-item {
   border: 0 none;
 }
 
@@ -472,7 +487,7 @@
 }
 
 .adminimal .toolbar .toolbar-tray-horizontal {
-  border-bottom: 1px solid #333;
+  border-bottom: 0;
   box-shadow: none;
 }
 
@@ -508,19 +523,36 @@
   background-image: url(../images//chevron-disc-up.svg);
 }
 
-.adminimal .toolbar-tray-horizontal a:focus, .toolbar-box a:focus {
-  background: transparent;
-}
-
-.adminimal .toolbar .toolbar-tray-vertical .toolbar-menu a {
+.adminimal .toolbar .toolbar-menu .toolbar-menu a {
   color: #bbb;
 }
 
-.adminimal .toolbar .toolbar-tray-vertical .toolbar-menu a:hover {
-  color: #fff;
+.adminimal .toolbar-tray-horizontal a:focus,
+.adminimal .toolbar-box a:focus {
+  background: transparent;
 }
 
-.adminimal .toolbar .toolbar-tray-vertical .toolbar-menu ul ul {
+.adminimal .toolbar-tray-horizontal ul ul li.menu-item:first-child {
+  border-top: 1px solid #555;
+}
+
+.adminimal .toolbar .toolbar-menu a {
+  color: #bbb;
+}
+
+.adminimal .toolbar .toolbar-menu a:hover,
+.adminimal .toolbar .toolbar-menu .toolbar-menu a.is-active {
+  background-color: #327ebd;
+  color: #fff;
+  text-decoration: none;
+}
+
+.adminimal .toolbar a.is-active:hover,
+.adminimal .toolbar .toolbar-menu .toolbar-menu a.is-active:hover {
+  text-decoration: underline;
+}
+
+.adminimal .toolbar .toolbar-menu ul ul {
   border: none;
 }
 
