@@ -1647,6 +1647,11 @@ body.adminimal-theme .views-admin .icon {
   width: 16px;
 }
 
+body.adminimal-theme .views-admin .views-field-excluded,
+body.adminimal-theme .views-admin .views-display-disabled-link {
+  opacity: .5;
+}
+
 #simplenews-admin-filter .spacer {
   float: left;
   margin-top: 10px;
