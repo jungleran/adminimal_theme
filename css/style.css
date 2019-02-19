@@ -2261,6 +2261,10 @@ body.adminimal-theme .views-displays .secondary .action-list li.last  {
   padding-bottom: 5px;
 }
 
+body.adminimal-theme .views-display-top ul#views-display-menu-tabs li a.error {
+  background: #f2dede;
+}
+
 body.adminimal-theme .views-display-top ul#views-display-menu-tabs li a.active {
   box-shadow: 0px 1px 0px #0073BC;
   color: #0073BC;
