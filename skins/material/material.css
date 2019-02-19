@@ -688,6 +688,11 @@ body.adminimal-skin-material table tbody td a.module-link {
   padding: .5em 10px .5em 30px;
 }
 
+body.adminimal-skin-material table tbody td a.tabledrag-handle {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 body.adminimal-skin-material table tbody td a.module-link {
     background-position-x: 10px;
 }
