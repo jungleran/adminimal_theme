@@ -1,8 +1,8 @@
 /* Style checkbox and radio buttons in Chrome + Safari + Opera */
 @supports (-webkit-appearance:none) {
-  .style-checkboxes input[type=checkbox],
-  .style-checkboxes input[type=radio],
-  .style-checkboxes input[type=checkbox]#edit-delete {
+  .style-checkboxes input[type=checkbox]:not(.element-hidden),
+  .style-checkboxes input[type=radio]:not(.element-hidden),
+  .style-checkboxes input[type=checkbox]#edit-delete:not(.element-hidden) {
     -webkit-appearance:none;
     display: inline-block;
     position: relative;
