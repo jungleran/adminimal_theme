@@ -1124,6 +1124,11 @@ body.sticky-actions.adminimal-skin-material .form-actions.form-wrapper {
   border-bottom: none;
 }
 
+body.sticky-actions.adminimal-skin-material .ajax-new-content .form-actions.form-wrapper {
+  padding: 0;
+  box-shadow: none;
+}
+
 body.sticky-actions.adminimal-skin-material #page {
   margin-bottom: 80px;
 }

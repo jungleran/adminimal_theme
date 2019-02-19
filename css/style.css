@@ -2826,6 +2826,17 @@ body.sticky-actions .form-actions.form-wrapper {
   margin: 0;
   z-index: 999;
 }
+body.sticky-actions .ajax-new-content .form-actions.form-wrapper {
+  position: initial;
+  bottom: initial;
+  background: initial;
+  border-top: none;
+  width: initial;
+  left: initial;
+  padding: 0;
+  margin: 20px 0 0;
+  z-index: initial;
+}
 
 body.sticky-actions #page {
   margin-bottom: 60px;
@@ -3016,6 +3027,10 @@ body.sticky-actions #module-filter-submit.fixed.fixed-bottom .form-actions.form-
 [dir="rtl"] body.sticky-actions .form-actions.form-wrapper {
   left: initial;
   right: 0;
+}
+
+[dir="rtl"] body.sticky-actions .ajax-new-content .form-actions.form-wrapper {
+  right: initial;
 }
 
 html[dir="rtl"].js input.form-autocomplete {

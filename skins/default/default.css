@@ -464,3 +464,7 @@ ul.action-links a:hover {
 body.sticky-actions .form-actions.form-wrapper {
   box-shadow: -20px 2px 40px rgba(0,0,0,0.4);
 }
+
+body.sticky-actions .ajax-new-content .form-actions.form-wrapper {
+  box-shadow: none;
+}
