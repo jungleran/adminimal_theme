@@ -3103,3 +3103,46 @@ body.page-admin-structure-views-view #views-ui-edit-display-form #edit-options i
 body.page-admin-structure-views-view #content-wrapper #main-content {
   display: initial;
 }
+
+/* Diff revisions view */
+table.diff th a {
+  display: inline;
+}
+
+table.diff th,
+table.diff td,
+div.diff-section-title,
+.page-node-revisions-view .node {
+  padding: 0.5em;
+}
+
+table.diff .diff-prevlink,
+table.diff .diff-nextlink,
+table.diff .diff-links {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table.diff .diff-prevlink a,
+table.diff .diff-nextlink a {
+  padding: 0.5em 0.75em;
+  background-color: #eee;
+}
+
+table.diff .diff-links a {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  background-color: #efefef;
+}
+
+table.diff .diff-links a.active {
+  background-color: #eee;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.25em 0.75em;
+}
+
+table.diff td.diff-section-title,
+div.diff-section-title {
+  font-size: 1em;
+}
