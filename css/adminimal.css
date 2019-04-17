@@ -192,6 +192,13 @@
   margin: 2em 0;
 }
 
+.adminimal .button--small {
+  background: #fff;
+  border-color: #cacaca;
+  border-radius: 0.2rem;
+  font-weight: 500;
+}
+
 .adminimal .button--primary {
   background: #0071b8;
   border-color: #0071b8;
@@ -236,13 +243,6 @@
 .adminimal .action-links .button--primary:focus {
   border-color: #08639b;
   outline: none;
-}
-
-.adminimal .button--small {
-  background: #fff;
-  border-color: #cacaca;
-  border-radius: 0.2rem;
-  font-weight: 500;
 }
 
 .adminimal .button--danger {
