@@ -162,15 +162,6 @@
   transition: all, 0.2s;
 }
 
-.adminimal .button:not(.media-library-item__remove) {
-  background-image: none;
-}
-
-.adminimal .button:not(.media-library-item__remove):hover,
-.adminimal .button:not(.media-library-item__remove):focus {
-  background-image: none;
-}
-
 .adminimal .button {
   background-color: #f9f9f9;
   border-radius: 0;
