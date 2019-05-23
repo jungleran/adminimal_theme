@@ -416,15 +416,12 @@
   color: #bbbbbb;
 }
 
-.adminimal .toolbar .toolbar-bar .toolbar-tab > .toolbar-item {
+.adminimal .toolbar .toolbar-bar .toolbar-tab:not(.workspaces-toolbar-tab) > .toolbar-item {
+  color: #bebebe;
   font-weight: 600;
 }
 
-.adminimal .toolbar .toolbar-bar .toolbar-item {
-  color: #bebebe;
-}
-
-.adminimal .toolbar .toolbar-bar .toolbar-tab > .toolbar-item:hover {
+.adminimal .toolbar .toolbar-bar .toolbar-tab:not(.workspaces-toolbar-tab) > .toolbar-item:hover {
   background-color: #2d2d2d;
   background-image: none;
   color: #fff;
